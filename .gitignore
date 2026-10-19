@@ -1,0 +1,22 @@
+# Local application state
+AppData/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+runtime/
+backups/
+recovery/
+sessions/
+telemetry/
+TestResults/
+
+# Development/build output
+node_modules/
+dist/
+build/
+out/
+obj/
+bin/
+*.zip

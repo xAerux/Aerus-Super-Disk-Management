@@ -1,0 +1,8 @@
+{
+  "name": "drivescope",
+  "productName": "Aerus SDM",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.cjs",
+  "description": "Aerus SDM — Super Disk Management"
+}

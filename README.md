@@ -1,241 +1,111 @@
-# Aerus-Super-Disk-Management
-A Super Disk Management Program from me to you! Enjoy! 
+# Aerus SDM
+
 <img width="1280" height="1109" alt="photo_2026-10-18_15-55-56" src="https://github.com/user-attachments/assets/c81d0392-b4eb-4057-ba48-5b4292f12df0" />
 
 <img width="198" height="156" alt="photo_2026-10-18_21-49-39" src="https://github.com/user-attachments/assets/60ca341d-28e7-4d5e-b343-ee30cb8bbbd0" />
-# 💜 Aerus SDM — Super Disk Management
 
-### Your storage. Your software. Your computer. Your control.
+# ⚡ AERUS SDM
 
-**Aerus SDM** is a Windows desktop management utility designed to help you understand, organize, and manage your computer from one powerful dashboard.
+### 💻 Your PC. Your Startup. Your Control.
 
-Explore installed software, discover games across your drives, analyze disk usage, review duplicate files, manage startup applications, and plan cleanup operations — all through a modern, customizable interface.
+**Created by Aeru Creations**
 
-Built with a focus on **visibility, control, and safer system management**.
+**Windows Desktop Utility | Version 1.0.0**
 
-**Developed by Aeru Creations**
-
----
-
-## 🖥️ Application Preview
-
-*Place your Aerus SDM dashboard screenshot here.*
-
-Aerus SDM features a sleek dark interface with purple accents, easy-to-read storage information, searchable software lists, and convenient system-management tools.
+Welcome to **Aerus SDM**, a Windows desktop utility for seeing what your computer is doing at startup, what your drives hold, and what is installed where. It runs on your PC, shows you the facts first, and only changes something when you say so. 🚀
 
 ---
 
-## ✨ Features
+## ✨ What It Does
 
-### 💻 Software & Game Discovery
+- 🔎 **Windows system discovery.** Looks at your PC locally and shows what it finds.
+- 🚦 **Startup detection.** Lists the programs that start with Windows, from Run entries (current user and machine, 32-bit and 64-bit) and Startup folders, with their publisher and current state.
+- 🎛️ **Startup management.** Turn supported startup entries on or off. Disabling is reversible, and the entry is never deleted.
+- 💾 **Storage and drive information.** Shows your drives and how much space each one has used and free.
+- 🖥️ **Standalone desktop window.** It opens as its own Windows app, not a browser tab.
 
-See what's installed across your computer without manually searching through folders.
-
-- Discover installed applications and games.
-- Browse software across multiple storage drives.
-- Search by application name or installation path.
-- Filter by drive, launcher, and software type.
-- Sort by installation size.
-- Review detected game launchers and installation locations.
-- Identify installations that may need attention.
-
-### 💾 Drive & File Management
-
-Get a clearer picture of how your storage is being used.
-
-- View connected storage drives.
-- Review available and used space.
-- Explore files and installation directories.
-- Navigate storage locations.
-- Identify unusually large installations.
-
-### 📊 Space Analysis
-
-Understand where your disk space is going.
-
-- Review storage consumption.
-- Identify large applications and games.
-- Compare installations across drives.
-- Find opportunities to reclaim storage.
-
-### 🔍 Duplicate File Tools
-
-Review potential duplicate files before deciding what to do with them.
-
-The goal is to help users make informed decisions without blindly removing important data.
-
-### 🧹 Cleaner & Cleanup Planning
-
-Aerus SDM emphasizes controlled cleanup operations.
-
-- Review items before taking action.
-- Inspect selected files and installation paths.
-- Prepare removal plans where supported.
-- Keep potentially destructive actions under user control.
-
-**Safety first:** Scanning or selecting an item should never be treated as permission to delete it.
-
-### 🚀 Startup Management
-
-Review and manage supported Windows startup applications.
-
-- Discover startup entries.
-- Inspect available startup information.
-- Enable or disable supported entries.
-- Review current startup states.
-
-Startup changes should be deliberate and verifiable.
-
-### 🎨 Customizable Appearance
-
-Enjoy a modern desktop interface featuring:
-
-- Dark dashboard styling
-- Purple accent design
-- Customizable appearance controls
-- Compact storage indicators
-- Searchable data tables
-- Convenient navigation between management tools
-
----
-
-## 🛡️ Built Around User Control
-
-System-management software should help users understand their computer — not make risky decisions behind their backs.
-
-Aerus SDM is designed around several important principles:
-
-**Review before action.** Users should understand what an operation will affect.
-
-**No surprise deletion.** Potentially destructive operations require deliberate confirmation.
-
-**Clear system information.** Scans and reports should distinguish discovered information from estimated or incomplete results.
-
-**You remain in control.** Aerus SDM assists with system management; it does not replace user judgment.
-
-> Always review file paths and selected items carefully before performing cleanup or removal operations.
+Aerus SDM does not advertise features it does not have. If something is not listed above, it is not promised.
 
 ---
 
 ## 📥 Installation
 
-### Windows Desktop
+1. Download **`Aerus-SDM-Setup-v1.0.0.exe`** from the official GitHub Release, once it is published.
+2. Double-click the file.
+3. Follow the Windows setup steps.
+4. Launch **Aerus SDM** from the Desktop or the Start Menu.
 
-1. Visit the repository's **Releases** section for an available Windows build.
-2. Download the provided Aerus SDM application or installer.
-3. Follow the instructions included with that version.
-4. Launch Aerus SDM.
-5. Run a scan to discover available software and storage information.
+THAT'S IT! 🚀
 
-Availability and installation steps may vary by release.
-
-**Note:** Windows may warn about applications without a recognized code-signing certificate. Only run software from a source you trust.
+You do not need Node.js, npm, PowerShell, or the source code. The installer includes everything the app needs.
 
 ---
 
-## 🚀 Getting Started
+## 🔐 Windows Security Warning
 
-### 1. Scan your computer
+The installer is **not code-signed yet**, so Windows may show a security warning when you open it. That is expected for an unsigned program.
 
-Launch Aerus SDM and select the available scan action to discover installed software and games.
+- Only download the installer from the official GitHub Release.
+- Compare the file's SHA-256 checksum with the one published on the release page before you run it.
+- If you do not recognize the source, do not run it.
 
-### 2. Explore the dashboard
-
-Review your drives, installed applications, detected games, and storage information.
-
-### 3. Find what matters
-
-Use search, filters, and sorting to locate large installations or specific software.
-
-### 4. Review management tools
-
-Explore Space Analysis, Duplicates, Cleaner, Actions, and Startup to see which operations are available.
-
-### 5. Stay in control
-
-Inspect proposed changes carefully before confirming any action that affects your system.
+Do not turn off Windows Defender, SmartScreen, or any other security protection to install Aerus SDM.
 
 ---
 
-## 🧭 Application Sections
+## 🛡️ Safety and Privacy
 
-| Section | Purpose |
-|---|---|
-| Software & Games | Discover and organize installed applications and games |
-| Drives & Files | Explore connected drives and file locations |
-| Space Analysis | Understand storage usage |
-| Duplicates | Review potential duplicate files |
-| Cleaner | Inspect cleanup opportunities |
-| Actions | Access supported management operations |
-| Startup | Review supported Windows startup entries |
-| Settings | Configure application preferences |
+- 🏠 **Local only.** Discovery runs on your computer. Aerus SDM does not upload your scan results, startup list, or file information.
+- 🧾 **Startup changes are reversible.** Disabling an entry turns off Windows' own startup flag. The entry stays in place, so you can turn it back on. Protected entries are read-only in Aerus SDM.
+- 📝 **Changes are logged locally.** Each startup change is recorded in a backup file under your Windows user profile (`%APPDATA%\Aerus SDM`). That file stays on your PC.
+- ⚠️ **Think before you disable.** Turning off a startup entry can stop a program from running in the background. Do not disable security software, drivers, or anything you do not recognize. If you are unsure, leave it alone.
+- 🌐 **One outside request.** The interface loads its fonts from Google Fonts when you are online.
+- 🔒 **Loopback service.** The app's local service listens only on your own computer, not on your network.
 
 ---
 
-## 💡 Why I Created Aerus SDM
+## 🧠 Why I Built Aerus SDM
 
-Over time, Windows computers accumulate games, applications, leftover files, startup programs, and installations spread across multiple drives.
+Over time, a Windows PC collects games, programs, leftover files, startup entries, and installs spread across several drives. Keeping track of all of it is frustrating, especially with more than one drive and hundreds of programs.
 
-Keeping track of everything becomes frustrating — especially when you have several storage devices and hundreds of applications.
-
-I wanted one place where I could see what was installed, understand where my storage was going, and manage my system without jumping between a dozen different utilities.
-
-**That's why I built Aerus SDM.**
-
-It's designed to make system management more organized, approachable, and convenient.
+I wanted one place to see what is installed, understand where the space is going, and manage startup without bouncing between a dozen utilities. That is why I built Aerus SDM. 💜
 
 ---
 
-## 🖥️ Platform
+## 🐛 Bugs, Feedback and Ideas
 
-**Primary platform:** Microsoft Windows
+Found a bug, or have an idea?
 
-Aerus SDM is designed as a local Windows desktop application.
+Open an issue in this repository's **Issues** section, and include:
 
-Available features may depend on Windows permissions, accessible drives, installed software, and the application version.
+- Your Windows version and the Aerus SDM version
+- The steps that lead to the problem
 
-Some protected files, system directories, and installation records may not be accessible without additional permissions.
-
----
-
-## ⚠️ Important Notes
-
-- Storage scans and installation detection may not identify every file or application.
-- Installation sizes and recoverable-space estimates may vary.
-- Removing applications or files can affect installed software, games, saved data, and shared dependencies.
-- Always maintain backups of important files before system changes.
-- Review proposed actions carefully before confirming them.
-- Some features may require administrator permissions.
-
-Aerus SDM is an independent system-management utility and is not affiliated with or endorsed by Microsoft or any game launcher.
+Never post passwords, license keys, or personal file information. 🙏
 
 ---
 
-## 🐛 Bugs, Feedback & Suggestions
+## ⚠️ Known Limitations
 
-Have an issue or an idea for a new feature?
-
-Use the repository's **Issues** section to report:
-
-- Bugs and unexpected behavior
-- Installation problems
-- Incorrect application detection
-- Storage scanning issues
-- Startup management problems
-- Feature suggestions
-- Interface improvements
-
-When reporting bugs, include your Windows version, Aerus SDM version, and steps to reproduce the problem.
-
-Avoid uploading private system logs, passwords, license keys, or personal file information.
+Known limitations are listed in [KNOWN_ISSUES.md](KNOWN_ISSUES.md). Results depend on your Windows version and your account's permissions. Some system folders and installation records may not be readable without administrator rights.
 
 ---
 
-## 📜 License
+## ⚖️ Licence and Third-Party Branding
 
-This project is provided under the **MIT License**.
+Aerus SDM's own code is licensed under the [MIT License](LICENSE). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party components, notices and asset notes.
 
-See [LICENSE](./LICENSE) for details.
+**Third-Party Branding & Disclaimer**
+
+Aerus SDM is an independent Windows utility developed by Aeru Creations.
+
+Third-party software names, logos, icons, trademarks, and associated branding remain the property of their respective owners.
+
+Aerus SDM is not affiliated with, sponsored by, officially partnered with, or endorsed by Microsoft or other third-party software providers unless explicitly stated otherwise.
+
+The project's MIT License applies to the material covered by that license. Third-party components, trademarks, artwork, and other assets remain subject to their respective licensing terms and permissions.
+
+This disclaimer does not itself grant permission to redistribute third-party assets.
 
 ---
 
@@ -243,10 +113,10 @@ See [LICENSE](./LICENSE) for details.
 
 **Created by Aeru Creations**
 
-Building useful software, AI tools, and desktop applications that put more capability and control into the hands of everyday users.
+Building useful software, AI tools, and desktop applications that put more capability and control into the hands of everyday users. 🚀
 
 *Powerful tools. Cleaner workflows. Your computer, your rules.*
 
-### Aerus SDM — Super Disk Management
+### ⚡ Aerus SDM
 
-**Take control of your digital space.**
+**Take control of your digital space.** 💻

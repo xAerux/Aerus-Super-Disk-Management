@@ -5,118 +5,257 @@
 <img width="198" height="156" alt="photo_2026-10-18_21-49-39" src="https://github.com/user-attachments/assets/60ca341d-28e7-4d5e-b343-ee30cb8bbbd0" />
 
 # ⚡ AERUS SDM
-
 ### 💻 Your PC. Your Startup. Your Control.
 
-**Created by Aeru Creations**
+**A Windows System Management Utility by Aeru Creations**
 
-**Windows Desktop Utility | Version 1.0.0**
-
-Welcome to **Aerus SDM**, a Windows desktop utility for seeing what your computer is doing at startup, what your drives hold, and what is installed where. It runs on your PC, shows you the facts first, and only changes something when you say so. 🚀
-
----
-
-## ✨ What It Does
-
-- 🔎 **Windows system discovery.** Looks at your PC locally and shows what it finds.
-- 🚦 **Startup detection.** Lists the programs that start with Windows, from Run entries (current user and machine, 32-bit and 64-bit) and Startup folders, with their publisher and current state.
-- 🎛️ **Startup management.** Turn supported startup entries on or off. Disabling is reversible, and the entry is never deleted.
-- 💾 **Storage and drive information.** Shows your drives and how much space each one has used and free.
-- 🖥️ **Standalone desktop window.** It opens as its own Windows app, not a browser tab.
-
-Aerus SDM does not advertise features it does not have. If something is not listed above, it is not promised.
+![Version](https://img.shields.io/badge/Version-1.0.0-00CED1?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows)
+![License](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Released-brightgreen?style=for-the-badge)
 
 ---
 
-## 📥 Installation
+## 🚀 Welcome to Aerus SDM!
 
-1. Download **`Aerus-SDM-Setup-v1.0.0.exe`** from the official GitHub Release, once it is published.
-2. Double-click the file.
-3. Follow the Windows setup steps.
-4. Launch **Aerus SDM** from the Desktop or the Start Menu.
+Ever wondered just how much stuff Windows has running behind the scenes?
 
-THAT'S IT! 🚀
+Or opened Task Manager and thought:
 
-You do not need Node.js, npm, PowerShell, or the source code. The installer includes everything the app needs.
+**"Why the hell does all this stuff start with my computer?"** 😂
 
----
+Yeah. Same.
 
-## 🔐 Windows Security Warning
+That's one of the reasons I created **Aerus SDM**.
 
-The installer is **not code-signed yet**, so Windows may show a security warning when you open it. That is expected for an unsigned program.
+A standalone Windows utility designed to make understanding your PC, exploring your system, and managing startup applications a whole lot easier.
 
-- Only download the installer from the official GitHub Release.
-- Compare the file's SHA-256 checksum with the one published on the release page before you run it.
-- If you do not recognize the source, do not run it.
+No complicated commands. No digging through the Windows Registry just to figure out what's launching.
 
-Do not turn off Windows Defender, SmartScreen, or any other security protection to install Aerus SDM.
+**One application. More visibility. More control.**
+
+Built for people who like knowing what's happening inside their computers. ⚡
 
 ---
 
-## 🛡️ Safety and Privacy
+## 📸 A Look Inside Aerus SDM
 
-- 🏠 **Local only.** Discovery runs on your computer. Aerus SDM does not upload your scan results, startup list, or file information.
-- 🧾 **Startup changes are reversible.** Disabling an entry turns off Windows' own startup flag. The entry stays in place, so you can turn it back on. Protected entries are read-only in Aerus SDM.
-- 📝 **Changes are logged locally.** Each startup change is recorded in a backup file under your Windows user profile (`%APPDATA%\Aerus SDM`). That file stays on your PC.
-- ⚠️ **Think before you disable.** Turning off a startup entry can stop a program from running in the background. Do not disable security software, drivers, or anything you do not recognize. If you are unsure, leave it alone.
-- 🌐 **One outside request.** The interface loads its fonts from Google Fonts when you are online.
-- 🔒 **Loopback service.** The app's local service listens only on your own computer, not on your network.
+*See the application in action!*
+
+<!-- Keep your existing two Aerus SDM screenshot Markdown lines here. -->
 
 ---
 
-## 🧠 Why I Built Aerus SDM
+## ✨ Features
 
-Over time, a Windows PC collects games, programs, leftover files, startup entries, and installs spread across several drives. Keeping track of all of it is frustrating, especially with more than one drive and hundreds of programs.
+| Feature | What It Does |
+|---|---|
+| 🖥️ **System Discovery** | Explore supported information about your Windows computer. |
+| 🚀 **Startup Manager** | Discover startup applications and inspect their current settings. |
+| ⚡ **Startup Controls** | Enable or disable supported Windows startup entries. |
+| 💾 **Storage Information** | View available drive and storage information. |
+| 🔍 **Startup Inspection** | Inspect startup entries from supported Registry locations and Startup folders. |
+| 🛡️ **Reversible Changes** | Keep supported startup entries available for re-enabling, with local change records. |
 
-I wanted one place to see what is installed, understand where the space is going, and manage startup without bouncing between a dozen utilities. That is why I built Aerus SDM. 💜
+### 💡 Built for Real Windows Management
 
----
+Aerus SDM isn't just a pretty interface.
 
-## 🐛 Bugs, Feedback and Ideas
+It works with Windows startup information to help you inspect and manage supported entries without manually editing the Registry yourself.
 
-Found a bug, or have an idea?
+When you disable a supported Run-key startup entry, Aerus SDM uses Windows' `StartupApproved` state rather than deleting the original Run value.
 
-Open an issue in this repository's **Issues** section, and include:
+That means you can turn supported entries back on later.
 
-- Your Windows version and the Aerus SDM version
-- The steps that lead to the problem
-
-Never post passwords, license keys, or personal file information. 🙏
-
----
-
-## ⚠️ Known Limitations
-
-Known limitations are listed in [KNOWN_ISSUES.md](KNOWN_ISSUES.md). Results depend on your Windows version and your account's permissions. Some system folders and installation records may not be readable without administrator rights.
+**No unnecessary Registry deletion. No pretending every startup entry is disposable.**
 
 ---
 
-## ⚖️ Licence and Third-Party Branding
+## 📦 Download Aerus SDM — v1.0.0
 
-Aerus SDM's own code is licensed under the [MIT License](LICENSE). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party components, notices and asset notes.
+### <escape>⚡ Ready to take control?</escape>
 
-**Third-Party Branding & Disclaimer**
+**Official Windows Installer:**
 
-Aerus SDM is an independent Windows utility developed by Aeru Creations.
+### [📥 Aerus-SDM-Setup-v1.0.0.exe](https://github.com/xAerux/Aerus-Super-Disk-Management/blob/main/Aerus-SDM-Setup-v1.0.0.exe)
 
-Third-party software names, logos, icons, trademarks, and associated branding remain the property of their respective owners.
+### Installation
 
-Aerus SDM is not affiliated with, sponsored by, officially partnered with, or endorsed by Microsoft or other third-party software providers unless explicitly stated otherwise.
+1. 📥 Open the installer link above and select **Download raw file** on GitHub.
+2. 🖱️ Double-click `Aerus-SDM-Setup-v1.0.0.exe`.
+3. ⚙️ Follow the setup instructions.
+4. 🚀 Launch **Aerus SDM** and explore your system!
 
-The project's MIT License applies to the material covered by that license. Third-party components, trademarks, artwork, and other assets remain subject to their respective licensing terms and permissions.
+**THAT'S IT!** 🎉
 
-This disclaimer does not itself grant permission to redistribute third-party assets.
+The standalone installer does not require you to manually configure Node.js, npm, or development tools.
+
+**Windows users:** This installer is currently unsigned, so Windows may display an unknown-publisher or SmartScreen warning. Only run applications from sources you trust, and don't disable your security protections to install software.
 
 ---
 
-## 💜 Aeru Creations
+## 🚀 Your Startup. Your Rules.
 
-**Created by Aeru Creations**
+Over time, Windows computers collect startup entries from software installations, utilities, game launchers, communication apps, and more.
 
-Building useful software, AI tools, and desktop applications that put more capability and control into the hands of everyday users. 🚀
+Some are useful.
 
-*Powerful tools. Cleaner workflows. Your computer, your rules.*
+Some you only need occasionally.
 
-### ⚡ Aerus SDM
+And some leave you wondering why they're even there. 😂
 
-**Take control of your digital space.** 💻
+Aerus SDM makes supported startup entries easier to inspect and manage.
+
+### How Startup Management Works
+
+- 🔍 Discover supported startup entries.
+- 🖥️ Inspect their reported status.
+- ⚡ Enable or disable supported entries.
+- 🔄 Re-enable entries when needed.
+- 💾 Keep local records of supported startup changes.
+
+Changes to startup settings generally affect future launches or sign-ins. Disabling an entry does not automatically close an application that's already running or uninstall it.
+
+**⚠️ Important:** Some startup entries belong to antivirus tools, device utilities, accessibility software, and other important programs. Research anything unfamiliar before disabling it.
+
+---
+
+## 🔐 Privacy, Safety & Local Operation
+
+Your computer belongs to you. Your system information should be handled responsibly.
+
+Aerus SDM performs its supported system inspection and startup-management operations locally.
+
+Startup-change records are maintained in the user's Windows application-data directory.
+
+**Backup record location:**
+
+`%APPDATA%\Aerus SDM\startup-toggle-backups.json`
+
+### What You Should Know
+
+- 🔒 Startup-management operations work with local Windows configuration.
+- 💾 Supported startup changes are recorded locally.
+- 🛠️ Some operations may depend on Windows permissions.
+- 🔄 Supported startup changes can be reversed.
+- 🌐 The interface may request Google Fonts over the internet.
+- ⚠️ Aerus SDM is not a substitute for system backups or Windows recovery tools.
+
+No software can guarantee that every Windows configuration will behave identically. Use care when making system changes.
+
+---
+
+## 🖥️ Designed for Windows
+
+Aerus SDM is a dedicated Windows desktop application.
+
+Built using web-based desktop technology, it provides a familiar interface while interacting with supported Windows system functionality.
+
+You don't need to live inside Command Prompt or Registry Editor to explore the features it provides.
+
+**A desktop utility should feel like a desktop utility.** 😎
+
+---
+
+## 🐛 Bugs, Feedback & Suggestions
+
+I'm an independent developer, and I'm always improving my projects.
+
+Found a bug?
+
+Have an idea?
+
+Know a Windows feature that deserves a better interface?
+
+I'd love to hear about it!
+
+**[💬 Visit the GitHub Issues page](https://github.com/xAerux/Aerus-Super-Disk-Management/issues)**
+
+Please avoid posting passwords, authentication tokens, or private system information in public issue reports.
+
+You can also review the project's [known issues](./KNOWN_ISSUES.md).
+
+---
+
+## 🛠️ Development & Future Improvements
+
+Aerus SDM is part of a growing collection of software projects created under **Aeru Creations**.
+
+Future development may explore:
+
+- 🖥️ Expanded Windows system information
+- 💾 Additional storage-management insights
+- 🔍 Improved startup inspection
+- 🛡️ More safety and recovery options
+- ⚡ Interface and performance improvements
+- 🚀 New troubleshooting and productivity features
+
+These are ideas for future development, not features promised in v1.0.0.
+
+---
+
+## ⚖️ Open Source & Licensing
+
+**Aerus SDM is released under the MIT License.**
+
+You're welcome to inspect, study, modify, and redistribute MIT-covered source code in accordance with its license terms.
+
+**[📄 View MIT LICENSE](./LICENSE)**
+
+Copyright © 2026 xAerux.
+
+### Third-Party Software & Branding
+
+Aerus SDM incorporates third-party software components that retain their respective licenses and attribution requirements.
+
+The bundled Electron and Chromium technology, along with associated components, is documented in the included third-party license materials.
+
+**[📚 Third-Party Notices](./THIRD_PARTY_NOTICES.md)**
+
+Third-party trademarks, logos, names, and artwork remain the property of their respective owners.
+
+Aerus SDM is an independently developed project and is not affiliated with, sponsored by, or endorsed by Microsoft, Google, xAI, or other third-party providers unless explicitly stated otherwise.
+
+The MIT License for Aerus SDM's own code does not grant additional rights to third-party trademarks, assets, or separately licensed software.
+
+---
+
+## ❤️ About Aeru Creations
+
+I'm an independent creator with a passion for technology, software development, troubleshooting, and building things that are actually useful.
+
+I've spent years working with computers, fixing problems, experimenting with software, and finding ways to make technology work better.
+
+And now?
+
+I'm building my own tools. 😂
+
+Some projects start with a massive idea.
+
+Others start because something about Windows annoys me enough that I decide to build an application for it.
+
+**Aerus SDM is one of those projects.**
+
+The goal isn't to reinvent Windows.
+
+It's to make some of its tools and information easier to access, understand, and manage.
+
+And this is only the beginning. 🚀
+
+### ⚡ IMAGINE IT. I PRODUCE IT.
+
+**AERU CREATIONS**
+
+*Software. Technology. Creativity.*
+
+---
+
+### ⭐ Enjoying Aerus SDM?
+
+If you find it useful, consider giving the repository a **Star ⭐** on GitHub!
+
+It helps support the project and lets me know people are enjoying what I'm building.
+
+**Thanks for checking out Aerus SDM!** ⚡❤️
+
+*Built with curiosity, determination, and probably way too much caffeine.* 😂
